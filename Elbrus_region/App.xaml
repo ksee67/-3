@@ -1,0 +1,16 @@
+﻿<Application x:Class="Elbrus_region.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Elbrus_region"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <FontFamily x:Key="mainFont">Comic Sans MS</FontFamily>
+        <!-- Comic Sans MS font color -->
+        <SolidColorBrush x:Key="AdditionalColor">#FF76E383</SolidColorBrush>
+        <!-- RGB (118, 227, 131) -->
+        <SolidColorBrush x:Key="AttentionColor">#FF498C51</SolidColorBrush>
+        <!-- RGB (73, 140, 81) -->
+        <SolidColorBrush x:Key="PrimaryColor">#FFFFFFFF</SolidColorBrush>
+        <!-- RGB (255, 255, 255) -->
+    </Application.Resources>
+</Application>
